@@ -1,0 +1,19 @@
+{
+  "name": "katopato",
+  "version": "1.0.0",
+  "description": "jak bardzo powietrze w gdansku jest czystsze od tego w katowicach(slasku)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kato",
+    "pato"
+  ],
+  "author": "pizza&nioneq",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
+}
