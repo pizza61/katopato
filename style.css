@@ -1,0 +1,49 @@
+body {
+    background-color: #1e222d;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFF;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+
+.contenthead {
+    text-align: center;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.right {
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.cls {
+    clear: both;
+}
+
+#footer {
+    text-align: center;
+}
+
+.infobox {
+    margin-bottom: 15px;
+}
+
+.infocontent {
+    font-size: 35px;
+}
+
+.infounit {
+    font-size: 20px;
+}
