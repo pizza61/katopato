@@ -5,28 +5,23 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">        
+        <script src="raphael-2.1.4.min.js"></script>
+        <script src="justgage.js"></script>
     </head>
     <body>
-        <div id="container">
             <div id="navbar">
-                <div class="left">
-                    <h1>KatoPato</h1>
-                </div>
-                <div class="right">
-                    <small><b>Data ostatniej aktualizacji: </b> <span id="upDate"></span></small>
-                </div>
-                <div class="cls"></div>
+                <h1>KatoPato</h1>
+                <small><b>Data ostatniej aktualizacji: </b> <span id="upDate"></span></small>
             </div>
+        
             <div id="content">
                 <div class="left">
                     <h2 class="contenthead" id="slaskmiasto"></h2>
                     <h4 class="contenthead" id="slaskczujnik"></h4>
                     <div class="infobox">
                         <b>PM10</b><br>
-                        <span class="infocontent" id="slaskpm"></span>
-                        <span class="infounit"> µg</span><br>
-                        <span class="infoprocent" id="slaskpro"></span><span class="infoprounit">% normy</span><br>
+                        <div class="infocontent" id="slaskpm"></div>
                     </div>
                     <div class="infobox">
                         <b>TEMPERATURA</b><br>
@@ -35,26 +30,12 @@
                     </div>
                 </div>
                 <div class="left">
-                    <h2 class="contenthead">Różnice</h2>
-                    <div class="infobox">
-                        <b>PM10</b><br>
-                        <span class="infocontent" id="roznicapro"></span>
-                        <span class="infounit"> %</span><br>
-                    </div>
-                    <div class="infobox">
-                        <b>TEMPERATURA</b><br>
-                        <span class="infocontent" id="roznicatemp"></span>
-                        <span class="infounit"> ℃</span><br>
-                    </div>
-                </div>
-                <div class="left">
                     <h2 class="contenthead">Gdańsk</h2>
                     <h4 class="contenthead" id="gdanskczujnik"></h4>
                     <div class="infobox">
                         <b>PM10</b><br>
-                        <span class="infocontent" id="gdanskpm"></span>
-                        <span class="infounit"> µg</span><br>
-                        <span class="infoprocent" id="gdanskpro"></span><span class="infoprounit">% normy</span>
+                        <div class="infocontent" id="gdanskpm"></div>
+                        
                     </div>
                     <div class="infobox">
                         <b>TEMPERATURA</b><br>
@@ -62,11 +43,9 @@
                         <span class="infounit"> ℃</span><br>
                     </div>
                 </div>
-                <div class="cls"></div>
-            </div>
-            <div id="footer">
-                Powered by airly.
-            </div>
+        </div>
+        <div id="footer">
+            <span>Powered by airly &bull; <a href="https://github.com/pizza61/katopato">github</a> &bull; &copy; pizza&nioneq2019</span>
         </div>
         <script src="pomorskie.js"></script>
     </body>

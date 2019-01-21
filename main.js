@@ -61,7 +61,7 @@ class KatoPato {
         app.get('/api', (req, res) => {
             // no to tutaj jest api
             let teraz = (new Date()).getTime()/1000;
-            if(teraz < this.dane.updated+3600) {
+            if(teraz < this.dane.updated+900) {
                 res.send(this.dane)
             } else {
                 this.pobierz()
@@ -77,7 +77,7 @@ class KatoPato {
     }
 
     pobierz() {
-        console.dir("cyk rq")
+        console.log("Pobrano dane z airly")
         return new Promise(resolve => {
             const wegiel = Math.floor(Math.random() * roksanaWungiel.length);
             const jod = Math.floor(Math.random() * danzig.length);
@@ -135,4 +135,5 @@ function rq(id) {
 const kp = new KatoPato();
 kp.init();
 
-app.listen(8080)
+app.listen(1121)
+console.log("Uruchomiono na porcie :1121")
