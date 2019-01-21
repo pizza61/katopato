@@ -1,8 +1,13 @@
 # katopato
 
-Ta stronka pokazuje jakość powietrza na śląsku i w Gdańsku. Korzysta z api [airly](https://developer.airly.eu/docs). Jeżeli chcesz postawić to samemu, klucz należy wpisać w "key" w config.json
+Ta stronka pokazuje jakość powietrza na śląsku i w Gdańsku. Korzysta z api [airly](https://developer.airly.eu/docs). 
 
+Jeżeli chcesz postawić to samemu, klucz należy wpisać w "key" w config.json
+
+Gotowa wersja: http://papryka.pro:1121
+
+![pokaz](https://i.imgur.com/uaogMH3.png)
 ## kredyty
-pizza - ja
-nioneq - zrobił frontend wcześniej
-mati82821 - justgage w sumie zrobił
+* pizza - ja
+* nioneq - zrobił frontend wcześniej
+* mati82821 - justgage w sumie zrobił
