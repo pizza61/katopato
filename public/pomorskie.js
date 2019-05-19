@@ -43,10 +43,10 @@ fetch("/api")
     let minutes = "0" + date.getMinutes()
 
     let day = date.getDate();
-    let month = "0" + date.getMonth()+1;
+    let month = date.getMonth()+1;
     let year = date.getFullYear();
 
-    let formattedDate = hours + ':' + minutes.substr(-2) + " "+day+"/"+month.substr(-2)+"/"+year;
+    let formattedDate = hours + ':' + minutes.substr(-2) + " "+day+"/"+("0"+month).substr(-2)+"/"+year;
     
     byId("upDate").innerText = formattedDate;
 })
